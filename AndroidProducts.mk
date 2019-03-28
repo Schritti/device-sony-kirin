@@ -12,6 +12,5 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_i3113.mk \
-                     $(LOCAL_DIR)/aosp_i4113.mk
+PRODUCT_MAKEFILES := $(LOCAL_DIR)/omni_kirin.mk
 

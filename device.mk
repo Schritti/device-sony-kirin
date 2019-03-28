@@ -86,10 +86,10 @@ PRODUCT_PROPERTY_OVERRIDES := \
     ro.usb.pid_suffix=201
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, device/sony/ganges/platform.mk)
+$(call inherit-product, device/sony/ganges-common/platform.mk)
 
 # copy NFC firmware
-$(call inherit-product-if-exists, vendor/nxp/nxp-vendor.mk)
+$(call inherit-product-if-exists, vendor/sony/nxp/nxp-vendor.mk)
 
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/sony/ganges-common/ganges-partial.mk)
